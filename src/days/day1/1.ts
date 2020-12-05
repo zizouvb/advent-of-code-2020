@@ -27,3 +27,13 @@ export const findTriplet = (expenseReport = expenseReportInput) => {
   }
   throw new Error("Not found");
 };
+
+export const day1ComputeResultPart1 = () => {
+  const pair = findPair();
+  return computeProduct(pair);
+};
+
+export const day1ComputeResultPart2 = () => {
+  const triplet = findTriplet();
+  return computeProduct(triplet);
+};
