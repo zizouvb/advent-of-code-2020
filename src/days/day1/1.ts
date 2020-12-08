@@ -1,6 +1,5 @@
 import { expenseReportInput } from "./utils";
-
-export const computeProduct = array => array.reduce((a, b) => a * b, 1);
+import { computeProduct } from "./../../utils";
 
 export const findPair = (expenseReport = expenseReportInput) => {
   const complements = {};

@@ -1,4 +1,5 @@
-import { findPair, findTriplet, computeProduct } from "./1";
+import { findPair, findTriplet } from "./1";
+import { computeProduct } from "./../../utils";
 describe("part1", () => {
   it("should find 0 if [2020,0] is given", () => {
     const pair = findPair([2020, 0]);

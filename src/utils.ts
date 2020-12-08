@@ -6,3 +6,5 @@ export const readFile = fileName => {
     .readFileSync(pathResolver.join(__dirname, fileName), "utf-8")
     .split("\n");
 };
+
+export const computeProduct = array => array.reduce((a, b) => a * b, 1);
